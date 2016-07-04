@@ -1,0 +1,118 @@
+/*
+Theme Name: iDea - Clean & Powerful Bootstrap Theme
+Author: HtmlCoder
+Author URI: http://www.htmlcoder.me
+Author e-mail: htmlcoder.me@gmail.com
+Version: 1.0.0 
+Created: August 2014
+License URI: http://wrapbootstrap.com
+File Description: Place here your custom CSS styles
+*/
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.no-margin{margin:0;}
+.bg-blue{background-color: #00adef;}
+.color-blue{color:#00adef;}
+.color-white{color:#fff;}
+.color-green{color:#9ecc4a;}
+.size-12{font-size: 12px;}
+
+.btn-blue {
+	background-color: #00adef;
+	color: #fff !important;
+	border-color: #009cd7;
+}
+
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue:active,
+.btn-blue.active {
+	color: #fff !important;
+	background-color: #009cd7;
+	border-color: #009cd7;
+}
+
+.style1{
+	padding-top: 6px;
+}
+
+.style1 > a{
+    padding: 6px;
+    color:#6d6d6d;
+}
+
+.light-translucent-bg:after {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.parallax-bg-3 {
+	background: url("../images/parallax-img-1.jpg") 50% 0px no-repeat;
+}
+
+.box-style-3{
+	margin-top: 10px; 
+}
+
+.box-style-3 .body h2{
+	color:#00adef;
+	margin-bottom: 5px;
+}
+.box-style-3 .body p{
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
+.fixed-image {
+    min-height: 200px;
+    padding:100px 0;
+}
+
+.banner + .page-intro{
+	background-color:#00adef;
+}
+
+.breadcrumb{
+	font-size: 14px;
+}
+
+.breadcrumb > li + li:before,
+.breadcrumb > .active{
+	color:#9ecc4a;
+}
+
+.breadcrumb li > a,
+.breadcrumb li > i{
+	color:#fff;
+}
+
+.img-border{
+	border: 1px solid #c9c8c8;
+    padding: 5px;
+}
+
+.service-icon .col-sm-2{
+	width:100%;
+	white-space: nowrap;
+	text-align: center;
+}
+
+@media(min-width: 768px){
+	.service-icon .col-sm-2{
+		width:20%;
+	}
+}
+
+h1, h2, h3, h4 {
+    font-weight: normal;
+}
+
+.list-icons{
+	padding-left: 25px; 
+}
+
+.list-icons li i{
+	margin-left: -25px;
+}
+.service-icon .col-sm-2 h3{font-size: 20px;}
